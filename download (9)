@@ -1,0 +1,35 @@
+# Secrets — HA COMMIT GAREYN
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+key.properties
+google-services.json
+GoogleService-Info.plist
+
+# Node
+node_modules/
+dist/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+pubspec.lock.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
